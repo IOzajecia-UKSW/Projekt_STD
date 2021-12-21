@@ -174,6 +174,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
             EndDialog(hDlg, LOWORD(wParam));
             return (INT_PTR)TRUE;
         }
+        //Pewnie cos tu trzeba dodac, ale nie ogarniam
         break;
     }
     return (INT_PTR)FALSE;
